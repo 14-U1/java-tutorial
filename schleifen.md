@@ -16,7 +16,9 @@ if (test) {
 }
 ```
 in der ersten zeile sehen wir nach `if` direkt die Bedingung in klammern. hier, der boolean "test". Auch hier wird alles in geschwungenen Klassen ausgeführt. Bei dem Beispiel oben ist auch "else" zu sehen. das wird ausgeführt, falls die erste Bedingung nicht wahr ist, (false), dann wird else ausgeführt.
+  
 > Wichtig: else ist optional. Wir können auch nur eine `if` Bedingung haben. If kann alleine stehen, aber **else steht niemals ohne if davor!**
+  
 Wir können auch mehrere Bedingungen aneinander reihen:
 ```java
 int kekse = 2;
@@ -55,7 +57,9 @@ while(hunger) {
 }
 ```
 die methode `essen()` wird solange aufgerufen, bis hunger `false` ist.
+  
 > Wichtig: While schleifen können unendlich laufen, wenn man nicht aufpasst. z.B. wenn die Bedingung `true` ist und sich nie ändert.
+  
 Mehr infos ist in unserer Presentation auf teams.
   
 ## do while Schleifen
@@ -72,4 +76,6 @@ Der Scanner ist eine Klasse, die benutzt werden kann um Daten vom user einzulese
 ```java
 Scanner eingabe = new Scanner(System.in);
 ```
+  
 > für die Arbeit am Montag müssen wir **nicht** ein Scanner Objekt erstellen können. uns wird das Scanner Objekt zur verfügung gestellt. (hier: `eingabe`)  
+  
