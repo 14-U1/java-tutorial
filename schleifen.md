@@ -38,15 +38,17 @@ Hier benutzte ich einfach `else if (Bedingung)`
 ## for loops
 Wenn wir eine Aktion x mal ausführen wollen, benutzten wir eine for Schleife.
 ```java
-for (int i = 0; i<x; i++) {
-    System.out.println(i); //1, 2, 3, 4 ... x
+for (int i = 0; i < x; i++) {
+    System.out.println(i); // 0, 1, 2, 3 ... x-1
 }
 ```
-In der ersten Zeile der `for` Schleife ist die Bedingung `(int i = 0; i<x; i++)` zu sehen. hier passieren 3 sachen:
+In der ersten Zeile der `for` Schleife ist die Bedingung `(int i = 0; i < x; i++)` zu sehen. hier passieren 3 sachen:
 1. Wir erstellen eine **Laufvariable** i mit `int i = 0;`
 2. Wir überprüfen, ob i kleiner ist als x (unsere Stopp-zahl. z.B. 10) mit `i < x;` 
-3. Wir addieren 1 zu i mit `i++`, falls Die Bedingung in Schritt 2 Wahr ist (i < x) 
-Danach wird alles in den geschwungenen Klammer ausgeführt. hier: `System.out.println(i)`
+3. Falls die Bedingung in Schritt 2 wahr ist (`i < x`) wird alles in den
+geschwungenen Klammern ausgeführt (hier: `System.out.println(i);`). Danach wird 1
+zu i mit `i++` addiert und die Schleife springt zu Schritt 2. Falls die Bedingung
+in Schritt 2 falsch ist, wird die Schleife abgebrochen.
   
 ## while schleifen
 While schleifen nutzen wir, wenn wir etwas solange ausführen wollen, bis eine Bedingung wahr ist.
