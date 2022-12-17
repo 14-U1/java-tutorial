@@ -11,3 +11,6 @@ Viel Spaß beim Java lernen, falls ihr Fragen habt, schreibt uns einfach an<br>
 1. [Java Basics](/java-tutorial/Java_basics)
 2. [Schleifen](/java-tutorial/schleifen)
 3. [Klassenbeziehungen](/java-tutorial/Klassenbeziehungen)
+
+Weiteres Beispiel für Generaliserung und Spezialisierung mit Konstruktoren und `super();`:<br>
+[Generalisierung und Spezialisierung](/java-tutorial/GeneralisierungundSpezialisierung)
