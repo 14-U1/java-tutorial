@@ -7,7 +7,7 @@ PKW, LKW -> Fahrzeug
 
 abstract class Fahrzeug {
     
-    private String farbe;
+    protected String farbe; //protected -> verfügbar in unterklassen
 
     public Fahrzeug(String farbe) { //Konstruktor der Klasse "Fahrzeug"
         this.farbe = farbe;
@@ -28,7 +28,7 @@ class LKW extends Fahrzeug {
 
 class PKW extends Fahrzeug {
 
-    private int tueren;
+    private int tueren; 
 
     public PKW(String farbe, int tueren) { //Konstruktor der Klasse PKW
         super(farbe); //ruft den Konstruktor der Klasse "Fahrzeug" auf
@@ -46,7 +46,7 @@ Haus -> Schule, Krankenhaus
 
 abstract class Haus {
     
-    private boolean fenster;
+    protected boolean fenster; //protected -> verfügbar in unterklassen
     
     public Haus(boolean fenster) {
         this.fenster = fenster;
